@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    /* background-image: url(main-bg.jpg); */
+    background-color: #FFFFE0;
+    font-family: 'Rajdhani', sans-serif;
+}
+nav{
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: black;
+    /* position: fixed; */
+}
+nav img{
+    height: 80px;
+}
+nav ul{
+    float: right;
+    display: flex;
+}
+nav ul li{
+    padding-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    list-style: none;
+    margin-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}
+nav ul li a:hover{
+    color: #31af36;
+}
+.active{
+    color: #31af36;
+}
+.veg-food h1{
+    margin-top: 30px;
+    font-size: 45px; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+.best3{
+    display: flex;
+    margin-left: 100px;
+}
+.best3 img{
+    height: 250px;
+    /* padding-left: 20px; */
+    margin: 30px;
+    border-radius: 10px 10px 0 0;
+}
+.res{
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.res:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.8);
+    transition: all 0.5s ease-in-out;
+}
+.res h2{
+    margin-top: -20px;
+}
+.res h3{
+    margin-top: 10px;
+}
+.res span{
+    background-color: #31af36;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.offer{
+    transform: translateY(-50px);
+    color: white;
+    background-color: #31af36;
+    width: 200px;
+    border-radius: 20px;
+}
+.footer{
+    background-color: #e6e8e6;
+}
+.footer h1{
+    font-size: 40px;
+    /* margin-top: 40px; */
+    padding-top: 20px; 
+    padding-left: 150px;
+}
+.footer-div{
+    display: flex;
+    margin-top: 10px;
+}
+.list1{
+    margin-left: 150px;
+}
+.list1 ul{
+    list-style: none;
+}
+.list1 a{
+    text-decoration: none;
+    color: #222d3d;
+    font-size: 20px;
+    transition: all 0.5s ease-in
+}
+.list1 a:hover{
+    color: #31af36;
+}
+.fa{
+    cursor: pointer;
+}
+.soc{
+    display: flex;
+}
+.soc li{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: -96px;
+}
+.list1 img{
+    margin-top: 10px;
+    height: 30px;
+}
